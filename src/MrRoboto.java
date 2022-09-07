@@ -1,5 +1,7 @@
 // Import the Scanner tool used for reading (All external packages/libraries/apis are imported similarly this)
+
 import java.util.Scanner;
+
 
 public class MrRoboto {
     /**
@@ -15,5 +17,10 @@ public class MrRoboto {
 
         System.out.print("My name is Mr. Roboto, are you Kilroy? ");
         // Write your program here
+        String input = scanner.nextLine();
+
+        System.out.println(domo + input);
+
     }
 }
+
